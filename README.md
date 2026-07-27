@@ -41,7 +41,7 @@ This template can be used as a starting point for:
 
 ---
 # Language
-Java
+- Java
 ---
 # Repository Contents
 File Description
