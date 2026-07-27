@@ -44,8 +44,7 @@ This template can be used as a starting point for:
 - Java
 ---
 # Repository Contents
-File Description
-Main.java:
-Java competitive programming template
-README.md:
-Documentation for the utility functions
+| File | Description |
+|:-----|:------------|
+| `Main.java` | Java Competitive Programming template |
+| `README.md` | Documentation for the template |
