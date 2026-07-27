@@ -1,10 +1,10 @@
- CP-Code-Template
+ ##**CP-Code-Template**
 
 A clean and reusable Java template for Competitive Programming featuring essential utilities for bit manipulation and modular arithmetic.
 
 ---
 
-Bit Utilities
+##**Bit Utilities**
 
 A collection of commonly used bitwise operations.
 
@@ -16,7 +16,7 @@ Method| Description| Operation
 
 ---
 
-Modular Arithmetic
+##**Modular Arithmetic**
 
 Utility methods for performing arithmetic operations under a given modulo.
 
@@ -27,7 +27,7 @@ Method| Operation
 
 ---
 
- Purpose
+ ##**Purpose**
 
 This template can be used as a starting point for:
 
@@ -37,12 +37,12 @@ This template can be used as a starting point for:
 - Reusable Java problem-solving templates
 
 ---
-Language
+##**Language**
 Java
-Repository Contents
-File
-Description
-Main.java
+---
+##**Repository Contents**
+File Description
+Main.java:
 Java competitive programming template
-README.md
+README.md:
 Documentation for the utility functions
