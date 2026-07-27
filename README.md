@@ -21,10 +21,12 @@ Method | Description | Syntax |
 
 Utility methods for performing arithmetic operations under a given modulo.
 
-Method| Operation
-"add(a, b, mod)"| "(a + b) % mod"
-"sub(a, b, mod)"| "(a - b + mod) % mod"
-"mul(a, b, mod)"| "(a × b) % mod"
+Method | Description | Formula |
+|:-------|:------------|:--------|
+| `add(a, b, mod)` | Modular addition | `(a % mod + b % mod) % mod` |
+| `sub(a, b, mod)` | Modular subtraction | `(a % mod - b % mod + mod) % mod` |
+| `mul(a, b, mod)` | Modular multiplication | `((a % mod) * (b % mod)) % mod` |
+
 
 ---
 
