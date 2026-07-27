@@ -8,11 +8,12 @@ A clean and reusable Java template for Competitive Programming featuring essenti
 
 A collection of commonly used bitwise operations.
 
-Method| Description| Operation
-"getbit(a, b)"| Retrieves the b-th bit| "(a >> b) & 1"
-"setbit(a, b)"| Sets the b-th bit to "1"| "a | (1L << b)"
-"clearbit(a, b)"| Sets the b-th bit to "0"| "a & ~(1L << b)"
-"togglebit(a, b)"| Flips the b-th bit| "a ^ (1L << b)"
+Method | Description | Syntax |
+|:-------|:------------|:-------|
+| `getbit(a, b)` | Returns the **b-th** bit of `a`. | `(a >> b) & 1` |
+| `setbit(a, b)` | Sets the **b-th** bit to `1`. | `a \| (1L << b)` |
+| `clearbit(a, b)` | Clears the **b-th** bit (sets it to `0`). | `a & ~(1L << b)` |
+| `togglebit(a, b)` | Toggles the **b-th** bit. | `a ^ (1L << b)` |
 
 ---
 
